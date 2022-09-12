@@ -9,3 +9,5 @@ this changes done by pandian in my local repo
 
 git log
 git log --oneline
+
+git revert
