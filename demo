@@ -1,0 +1,96 @@
+    1  git branch
+    2  git branch ut
+    3  git branch uat
+    4  git branch sit
+    5  git branch
+    6  git checkout ut
+    7  clear
+    8  touch ut_test.txt
+    9  git add ut_test.txt 
+   10  git commit -m "ut_test"
+   11  git checkout sat
+   12  git checkout sit
+   13  clear
+   14  touch sit_demo.txt
+   15  git checkout uat
+   16  git checkout sit
+   17  git add sit_demo.txt 
+   18  git commit -m "sit_demo"
+   19  clear
+   20  git checkout uat
+   21  clear
+   22  git checkout ut
+   23  git log
+   24  git push
+   25  git push --set-upstream origin ut
+   26  clear
+   27  git log
+   28  git checkout sit
+   29  git merge ut
+   30  git checkout uat
+   31  git checkout sit
+   32  clear
+   33  git rebase sit uat 
+   34  git status
+   35  git add sit_demo.txt 
+   36  git commit -m "sit_add"
+   37  git status
+   38  git commit -a -m "sit_commit"
+   39  git commit -a -m "sit_push"
+   40  git log --oneline
+   41  cat sit_demo.txt 
+   42  ls
+   43  clear
+   44  git status
+   45  git add sit_demo.txt 
+   46  git status
+   47  git commit -m "test"
+   48  git status
+   49  git commit -m "line2"
+   50  git commit -a -m "line2"
+   51  git status
+   52  git log
+   53  git log --oneline
+   54  git checkout ut
+   55  git cherry-pick d70e0c4
+   56  git add .
+   57  git commit -m " cp1"
+   58  git cherry-pick d9aa4b2
+   59  git add ut_test.txt 
+   60  git commit -m "ut"
+   61  git status
+   62  git add sam.txt 
+   63  git commit -m "sam.txt" 
+   64  git checkout uat
+   65  git merge master
+   66  git checkout master
+   67  git merge uat
+   68  git merge ut
+   69  git status
+   70  git add .
+   71  git commit -m "m1 from sat"
+   72  git merge ut
+   73  git add .
+   74  git commit -m "ut_m2"
+   75  git push
+   76  git log --oneline
+   77  git add .
+   78  git commit -m "3rdline in sam"
+   79  git log --oneline
+   80  git push
+   81  git pull
+   82  git add .
+   83  git commit -m "m2"
+   84  git log --oneline
+   85  git [ush
+   86  git push
+   87  git branch
+   88  git branch -D sit uat ut
+   89  git branch
+   90  git push origin --delete ut
+   91  history
+   92  hitory > demo
+   93  hitory 
+   94  history > demo
+
+git stash
