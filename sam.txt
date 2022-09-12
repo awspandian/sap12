@@ -6,3 +6,6 @@ this is created in ut
 this is modified in hub by demo-user
 
 this changes done by pandian in my local repo
+
+git log
+git log --oneline
